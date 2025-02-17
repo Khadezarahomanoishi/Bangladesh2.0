@@ -7,10 +7,7 @@
       "wdth" 100;
   }
 
-/* header */
-.header{
-    background-position: bottom , top;
-}
+
 
 .btn-primary{
     background-color: white;
@@ -45,4 +42,24 @@ nav ul li {
 .banner-pic{
     margin:  0 35px 0 120px;
 
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+/* Pillars section styles */
+.Pillars-container{
+    display: flex;
+    gap: 24px;
+}
+
+.Pillars{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgb(0, 0, 0, 0.06);
 }
