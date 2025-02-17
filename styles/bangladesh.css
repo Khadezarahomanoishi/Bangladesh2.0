@@ -22,6 +22,7 @@
 }
 
 
+
 /* Nav styles */
 nav{
     display: flex;
@@ -32,6 +33,9 @@ nav{
 }
 
 nav ul li {
+    list-style: none;
+}
+ ul li {
     list-style: none;
 }
 
@@ -49,8 +53,8 @@ main{
     margin: 0 auto;
 }
 main section{
-    margin-top: 130px;
-    margin-bottom: 130px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 /* Pillars section styles */
 .Pillars-container{
@@ -62,4 +66,42 @@ main section{
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgb(0, 0, 0, 0.06);
+}
+
+/* skills section styles */
+.skills-container{
+    display: flex;
+    gap: 24px;
+    
+
+}
+
+.skills{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgb(0, 0, 0, 0.06);
+}
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+
+/* shared style */
+.secondary-bg{
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* secondary section styles */
+.secondary{
+   padding: 30px;
+   border: 5px;
+   box-shadow: 0px 6px 20px 0px rgb(0, 0, 0, 0.25);
+}
+ 
+/* header */
+.header{
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
 }
