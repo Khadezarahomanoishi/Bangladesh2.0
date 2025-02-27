@@ -29,7 +29,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     margin: 50px 200px;
-    padding: ;
+    
    
 }
 
@@ -58,18 +58,39 @@ main section{
     margin-bottom: 50px;
 }
 /* Pillars section styles */
+.section-title{
+    text-align: left;
+}
+.Pillars-title{
+    text-align: left;
+}
+.Pillars-description{
+    text-align: left;
+}
 .Pillars-container{
     display: flex;
     gap: 24px;
 }
 
 .Pillars{
-    padding: 30px;
-    border-radius: 5px;
-    box-shadow: 0px 6px 50px 0px rgb(0, 0, 0, 0.06);
+    text-align: left;
+    padding: 5px;
+    border-radius: 10px;
+   
+    
+}
+
+.section-title{
+    align-items: left;
 }
 
 /* skills section styles */
+.section-description{
+    text-align: left;
+}
+.skills-title{
+    text-align: left;
+}
 .skills-container{
     
     display: flex;
@@ -78,10 +99,14 @@ main section{
     
 
 }
+.skills-description{
+    text-align: left;
+}
 
 .skills1{
   background-color: rgb(210, 237, 248);
   border-radius: 10px;
+  
   
 }
 
@@ -89,6 +114,7 @@ main section{
     background-color: rgb(216, 246, 216);
     border-radius: 10px;
     align-items: center;
+
 }
 
 .skills3{
@@ -100,9 +126,9 @@ main section{
 
 .skills{
 
-    padding: 30px;
+    padding: 20px;
     border-radius: 5px;
-    box-shadow: 0px 6px 50px 0px rgb(0, 0, 0, 0.06);
+    text-align: left;
     
 }
 
@@ -138,7 +164,19 @@ main section{
     background-image: url('../assets/quote-bg.png');
     background-repeat: no-repeat;
     
+    
 }
+.secondary-description{
+    text-align: left;
+}
+.secondary-title{
+    text-align: left;
+}
+
+.secondary-lite{
+    text-align: left;
+}
+/* skills */
 .btn-order1{
     background-color: rgb(58, 129, 157);
     font-weight: bold;
@@ -148,7 +186,7 @@ main section{
     border-radius: 7px;
    border: none;
    margin-right: -90px;
-  align-items: center;
+   
 }
 
 .btn-order2{
@@ -341,7 +379,7 @@ font-size: bold;
     justify-content: left;
     margin-bottom: 15px;
     border: none;
-    
+    text-align: left;
    
 }
 
@@ -383,3 +421,7 @@ font-size: bold;
   justify-content: left;
 }
 
+/* section start */
+.Need{
+   text-align: left;
+}
